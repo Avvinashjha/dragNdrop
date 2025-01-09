@@ -1,0 +1,51 @@
+/* DragDrop Container style*/
+.dragDrop__container {
+  background: #e6e6e6;
+  height: 90vh;
+}
+.dragDrop__container__body {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: scroll;
+}
+
+/*Drag container style*/
+.drag__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.drag__container__title {
+  font-weight: 600;
+}
+.drag__container__content {
+  height: 80%;
+  width: 250px;
+  background: #dcecf9;
+  border: 1px solid #000;
+  border-radius: 24px;
+  padding: 20px;
+  overflow: scroll;
+}
+/*Card Style*/
+.card__container {
+}
+.card__container .card__title {
+}
+.card__input {
+  width: 100%;
+  margin: 5px 0;
+}
+.btn__primary {
+  min-width: 50px;
+  background: #fff;
+  border: 1px solid #12cdd4;
+  border-radius: 4px;
+  cursor: pointer;
+}

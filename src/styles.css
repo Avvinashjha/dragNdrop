@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #cfcfcf #f4f4f4; /* Thumb and track colors for Firefox */
+}
+
+/* For Webkit Browsers */
+*::-webkit-scrollbar {
+  width: 8px;
+  max-height: 10px;
+  overflow: hidden;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #cfcfcf;
+  border-radius: 24px;
+  border: 2px solid #f4f4f4; /* Adds space inside the thumb */
+}
